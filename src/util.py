@@ -1,9 +1,6 @@
+import pandas as pd
 import math
-
-def isNan(x):
-    if type(x) != str:
-        return math.isnan(x) or math.isinf(x)
-    return x == 'nan'
+from datetime import datetime
 
 def tryParse(x):
     isnumber = True
